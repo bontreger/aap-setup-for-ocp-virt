@@ -5,6 +5,10 @@
     - "../vault.yml"
   connection: local
   tasks:
+    - name: Create execution environment
+      ansible.builtin.include_role:
+        name: infra.controller_configuration.execution_environments
+
     - name: Create Credential Types
       ansible.builtin.include_role:
         name: infra.controller_configuration.credential_types
