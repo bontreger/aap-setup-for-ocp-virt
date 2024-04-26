@@ -6,8 +6,9 @@ controller_inventory_sources:
     source_project: OCP Inventory
     source_path: ocp.kubevirt.yml
     inventory: OpenShift Virt
-    credential: OpenShift Token
+    credential: OCP Token
     overwrite: true
     overwrite_vars: true
     update_on_launch: false
     update_cache_timeout: 0
+    execution_environment: ocp-virt-ee
