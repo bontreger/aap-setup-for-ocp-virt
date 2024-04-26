@@ -1,0 +1,6 @@
+---
+controller_inventories:
+  - name: OpenShift Virt
+    description: OpenShift Virt VM inventory
+    organization: Default
+    

@@ -1,0 +1,13 @@
+---
+controller_inventory_sources:
+  - name: ocp-virt-vms
+    organization: Default
+    source: scm
+    source_project: OCP Inventory
+    source_path: ocp.kubevirt.yml
+    inventory: OpenShift Virt
+    credential: OpenShift Token
+    overwrite: true
+    overwrite_vars: true
+    update_on_launch: false
+    update_cache_timeout: 0
